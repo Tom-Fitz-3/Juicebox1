@@ -1,0 +1,29 @@
+{
+  "name": "juicebox",
+  "version": "1.0.0",
+  "description": "FullStack Juicebox Project",
+  "main": "index.js",
+  "scripts": {
+    "seed:dev": "nodemon ./db/seed.js",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tired-Millennial/juicebox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tired-Millennial/juicebox/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
